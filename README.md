@@ -95,10 +95,11 @@ open `index.html` in any modern browser and view your site
 - python 
 - postgreSQL
 
+![ website ](assets/images/istockphoto-2227155522-1024x1024.jpg)
 ## API Endpoints
 
 | **Methods** | **Endpoints** | **Description** | 
-| -------- | -------- | -------- | 
+| --------    | -----------      | -------- | 
 | POST | `api/auth/registry/` | Register user | 
 | POST | `api/auth/registry/` | Register user | 
 | GET  | `api/auth/registry/` | Login user | 
