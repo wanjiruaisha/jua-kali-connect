@@ -106,4 +106,69 @@ open `index.html` in any modern browser and view your site
 | GET  | `api/auth/registry/` | View Inventory |
 
 ## Environment Variables
+ Create a .env file in both frontend and backend directories:
 
+Backend
+
+**Plaintext**
+
+SECRET_KEY=your_secret_key
+DEBUG=True
+DB_NAME=jua_kali_db
+DB_USER=postgres
+DB_PASSWORD=your_password
+MPESA_CONSUMER_KEY=your_key
+MPESA_CONSUMER_SECRET=your_secret
+
+Frontend
+
+**Plaintext**
+
+REACT_APP_API_URL=http://localhost:8000/api
+
+Testing
+
+**Bash**
+
+# Backend tests
+python manage.py test
+
+# Frontend tests
+npm test
+
+
+Deployment
+
+1. **Build frontend:** npm run build
+2. **Use Docker for full-stack deployment:** docker-compose up --build
+3. **Deploy on:**
+   * AWS (EC2 / S3)
+   * Azure
+   * Render / Vercel (frontend)
+
+
+Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch (`feature/your-feature`)
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+License
+
+This project is licensed under the MIT License.
+
+Author
+
+**Your Name**
+
+* GitHub: https://github.com/your-username
+* Email: your-email@example.com
+
+
+### Vision
+
+To digitize and empower the Jua Kali sector by providing accessible, scalable, and efficient software solutions that enhance productivity and market reach.
