@@ -87,7 +87,8 @@ git clone https://github.com/aishawanjiru/jua-kali-connect.git
 cd jua-kali-connect
 ```
 open `index.html` in any modern browser and view your site
-```
+
+
 
 
 ### Prequisites
@@ -164,10 +165,10 @@ This project is licensed under the MIT License.
 
 Author
 
-**Your Name**
+**Aisha Wanjiru**
 
-* GitHub: https://github.com/your-username
-* Email: your-email@example.com
+* GitHub: https://github.com/aishawanjiru
+* Email: wanjiruaisha30@gmail.com
 
 
 ### Vision
