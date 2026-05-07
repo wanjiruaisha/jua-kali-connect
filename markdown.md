@@ -32,7 +32,7 @@ Coding experience
 
 ![Awesome coding](assets/images/istockphoto-2227155522-1024x1024.jpg)
 
-Tables
+Tables..
 
 | Header 1 | header 2 |
 | :-----: | :-----: |
